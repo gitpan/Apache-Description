@@ -6,7 +6,7 @@ use warnings;
 use IO::File;
 use Carp;
 
-our $VERSION = '0.3';
+our $VERSION = '0.4';
 
 my ($filename, $fh, @prev);
 my $regexp = <<'END_RE';
